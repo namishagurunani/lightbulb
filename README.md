@@ -1,6 +1,7 @@
 # lightbulb
 ![image](https://github.com/namishagurunani/lightbulb/assets/126158413/c9464692-177a-489e-afa0-483fe6b145ff)
 ![image](https://github.com/namishagurunani/lightbulb/assets/126158413/9ed624aa-a950-4b77-bff6-55f1c82db821)
+- after hovering on it
 ![image](https://github.com/namishagurunani/lightbulb/assets/126158413/bf10de56-0c56-41bc-bf62-fed28908de87)
 
 ## HTML EXPLANATION - 
