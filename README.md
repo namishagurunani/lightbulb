@@ -32,5 +32,5 @@ body: The CSS for the entire page sets the display to flex to center its content
 This code creates a simple and visually appealing interactive light bulb graphic using HTML and CSS.
 
 # LINKS TO VISIT ON WEB PAGE -
-- Github Repo Link:[click here]()
+- Github Repo Link:[click here](https://github.com/namishagurunani/lightbulb)
 - Hosted Link:[click here](https://namishagurunani.github.io/lightbulb/)
