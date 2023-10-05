@@ -1,16 +1,18 @@
 # lightbulb
-
+![image](https://github.com/namishagurunani/lightbulb/assets/126158413/c9464692-177a-489e-afa0-483fe6b145ff)
+![image](https://github.com/namishagurunani/lightbulb/assets/126158413/9ed624aa-a950-4b77-bff6-55f1c82db821)
+![image](https://github.com/namishagurunani/lightbulb/assets/126158413/bf10de56-0c56-41bc-bf62-fed28908de87)
 
 ## HTML EXPLANATION - 
-<body>: This is the main content section of the HTML document, where the page content is placed.
+body: This is the main content section of the HTML document, where the page content is placed.
 
-<div class="light-bulb">: A container div element with the class "light-bulb" that wraps the entire light bulb graphic.
+div class="light-bulb": A container div element with the class "light-bulb" that wraps the entire light bulb graphic.
 
-<div class="bulb">: A div element with the class "bulb" that represents the main body of the light bulb. This is where the light will change color when you hover over it.
+div class="bulb": A div element with the class "bulb" that represents the main body of the light bulb. This is where the light will change color when you hover over it.
 
-<div class="glow">: A div element with the class "glow" that represents the glowing effect of the light bulb. It uses a CSS animation to create a pulsating glow.
+div class="glow": A div element with the class "glow" that represents the glowing effect of the light bulb. It uses a CSS animation to create a pulsating glow.
 
-<div class="light">: A div element with the class "light" that represents the light bulb's filament. It also uses CSS animations to make it spin when you hover over it.
+div class="light": A div element with the class "light" that represents the light bulb's filament. It also uses CSS animations to make it spin when you hover over it.
 
 ## CSS EXPLANATION - 
 The CSS part defines the styling for various elements on the page.
