@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #232323;
+}
+
+.light-bulb {
+    position: relative;
+    width: 300px;
+    height: 500px;
+}
+
+.bulb {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    transition: background 0.3s;
+}
+
+.glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(255, 255, 0, 0.7), transparent);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    animation: pulse 2s infinite;
+}
+
+.light {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    top: 60px;
+    left: 60px;
+    transition: opacity 0.3s;
+}
+
+.light-bulb:hover .bulb {
+    background: #f9f9f9;
+}
+
+.light-bulb:hover .light {
+    opacity: 0.9;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.light-bulb:hover .glow {
+    animation: none;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.light-bulb:hover .light {
+    animation: rotate 3s linear infinite;
+}
